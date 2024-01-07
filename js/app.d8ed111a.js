@@ -200,8 +200,8 @@
                 linkedIn: "https://www.linkedin.com/in/haf%C3%AEz-inovus-573604253/",
               
             },
-            b = "\n    Hey there 👋, curious!\n    You're probably wondering how cool this site is.\n\n    If you think it's interesting and want to see the code behind it,\n    I've placed it in the open at https://github.com/whizkydee/olaolu.dev.\n    Feel free to check it out!\n\n    Also, you can contact me on https://twitter.com/mrolaolu or via hello@olaolu.dev ✨.\n",
-            z = "\n    Hey there 👋, curious!\n    You're probably wondering how cool this site is.\n    I can do even better, so, if your company is currently\n    looking for someone with my kind of skills, feel free to hit me up\n    on https://twitter.com/mrolaolu or via hello@olaolu.dev ✨.\n\n    And... about your curiousity, the code that powers my site is publicly hosted\n    on https://github.com/whizkydee/olaolu.dev. That's a good place to start\n    for sure 🤞.\n";
+            b = "\n   \n",
+            z = "\n   \n";
 
         function M() {
             var n = Object(i["a"])(["\n  *,\n  *::before,\n  *::after {\n    box-sizing: border-box;\n  }\n\n  :focus {\n    outline-width: 0.2em;\n    outline-style: dashed;\n    outline-color: ", ";\n  }\n\n  ::selection {\n    background-color: rgba(111, 132, 230, .3);\n  }\n\n  ::placeholder {\n    opacity: 1;\n    color: rgba(61, 21, 95, .75);\n  }\n\n  html {\n    width: 100%;\n    position: relative;\n    font-family: ", ";\n\n    text-size-adjust: 100%;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n\n    &", " {\n      a:focus,\n      .sauce-button:focus,\n      .menu-toggle:focus {\n        outline-color: transparent;\n      }\n    }\n\n    &", " {\n      a:focus {\n        outline-color: currentColor;\n      }\n\n      button:focus {\n        outline-width: 0.2em;\n      }\n\n      .sauce-button:focus {\n        outline-style: dashed;\n        outline-color: ", ";\n      }\n\n      .menu-toggle:focus {\n        outline-offset: 4px;\n        outline-style: dashed;\n        outline-color: ", ";\n      }\n\n      #logo:focus,\n      [data-theme='lime']:focus {\n        outline-color: currentColor;\n      }\n    }\n  }\n\n  body {\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    height: 100%;\n    font: inherit;\n    font-weight: normal;\n    line-height: inherit;\n    -webkit-font-smoothing: inherit;\n    -moz-osx-font-smoothing: inherit;\n  }\n\n  main:focus {\n    outline: none;\n  }\n\n  ul, ol, li {\n    margin: 0;\n    padding: 0;\n    list-style-type: none;\n  }\n\n  a {\n    text-decoration: none;\n    transition-duration: 300ms;\n    transition-property: opacity, color, background-color, transform, border;\n  }\n\n  button,\n  [role='button']\n  input[type='submit'] {\n    margin: 0;\n    padding: 0;\n    border: none;\n    cursor: pointer;\n    border-radius: 0;\n    appearance: none;\n  }\n\n  input,\n  button,\n  textarea {\n    border-radius: 0;\n    -webkit-tap-highlight-color: transparent;\n  }\n\n  textarea {\n    resize: none;\n  }\n\n  textarea,\n  [type='tel'],\n  [type='text'],\n  [type='email'],\n  [type='search'],\n  [type='password'] {\n    &:focus {\n      outline-color: transparent;\n    }\n  }\n\n  textarea,\n  [type='tel'],\n  [type='text'],\n  [type='email'],\n  [type='search'],\n  [type='password'] {\n    /* disable ugly styles for invalid inputs */\n    &:required,\n    &:invalid {\n      box-shadow: none;\n    }\n  }\n\n  /* disable ugly webkit autofill styles */\n  input:-webkit-autofill {\n    color: transparent !important;\n    background-image: none !important;\n    background-color: #fff !important;\n    -webkit-box-shadow: 0 0 0 1000px none inset !important;\n    -webkit-text-fill-color: rgba(61, 21, 95, .7) !important;\n  }\n\n  img {\n    width: auto;\n    height: auto;\n    display: block;\n    max-width: 100%;\n    user-select: none;\n  }\n\n  #app {\n    position: relative;\n  }\n\n  .no-scroll {\n    overflow: hidden !important;\n  }\n\n  .visuallyhidden {\n    border: 0;\n    clip: rect(0 0 0 0);\n    height: 1px;\n    margin: -1px;\n    overflow: hidden;\n    padding: 0;\n    position: absolute;\n    width: 1px;\n    white-space: nowrap;\n  }\n\n  #skip-link {\n    top: -4em;\n    z-index: 1001;\n    color: #eeffff;\n    user-select: none;\n    padding: 8px 15px;\n    font-size: 14.5px;\n    position: absolute;\n    transition: top .2s;\n    background: ", ";\n    border-bottom-right-radius: 3px;\n\n    &:focus {\n      top: 0;\n      left: 0;\n      outline: none;\n    }\n  }\n\n  .say-hello {\n    color: #cbc9e2;\n    letter-spacing: 0.25em;\n    text-transform: uppercase;\n  }\n"]);
@@ -1354,25 +1354,25 @@
                     attrs: {
                         external: "",
                         href: n._.twitter,
-                        ariaLabel: "Olaolu on Twitter"
+                        ariaLabel: "Hafiz on Twitter"
                     }
                 }, [n._v("\n    TW\n  ")]), e("NavItem", {
                     attrs: {
                         external: "",
                         href: n._.github,
-                        ariaLabel: "Olaolu on GitHub"
+                        ariaLabel: "Hafiz on GitHub"
                     }
                 }, [n._v("\n    GH\n  ")]), e("NavItem", {
                     attrs: {
                         external: "",
                         href: n._.linkedIn,
-                        ariaLabel: "Olaolu on LinkedIn"
+                        ariaLabel: "Hafiz on LinkedIn"
                     }
                 }, [n._v("\n    LN\n  ")]), e("NavItem", {
                     attrs: {
                         external: "",
                         href: n._.youtube,
-                        ariaLabel: "Olaolu's YouTube channel"
+                        ariaLabel: "Hafiz's YouTube channel"
                     }
                 }, [n._v("\n    YT\n  ")])], 1)
             },
@@ -2660,7 +2660,7 @@
                         slot: "text"
                     }, ["Je suis actuellement disponible pour des contrats et des postes à temps plein en télétravail. Souhaitez-vous que nous collaborions ensemble ? Vous devriez !", " ", n("a", {
                         attrs: {
-                            href: "mailto:hello@olaolu.dev?subject=".concat(encodeURIComponent("💡Let's Work Together on Project X"))
+                            href: "mailto:?subject=".concat(encodeURIComponent("💡Let's Work Together on Project X"))
                         }
                     }, ["contact me"]), "."])]), n("figure", {
                         class: "work-illo",
@@ -2669,7 +2669,7 @@
                         }
                     }, [n(Tr), n("figcaption", {
                         class: "visuallyhidden"
-                    }, ["Illustration of Olaolu and cardboards of some of his work."])])])])
+                    }, ["Illustration of hafiz and cardboards of some of his work."])])])])
                 },
                 props: ["name"]
             }),
